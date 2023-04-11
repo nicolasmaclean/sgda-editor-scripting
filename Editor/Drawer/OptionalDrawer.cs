@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace GummiEditor.Utility
+namespace SGDA.UtilitiesEditor
 {
     [CustomPropertyDrawer(typeof(Optional<>))]
     public class OptionalDrawer : PropertyDrawer

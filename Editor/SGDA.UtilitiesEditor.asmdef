@@ -1,8 +1,8 @@
 {
-    "name": "YourPackageEditor",
-    "rootNamespace": "YourPackageEditor",
+    "name": "SGDA.UtilitiesEditor",
+    "rootNamespace": "SGDA.UtilitiesEditor",
     "references": [
-        "YourPackage"
+        "SGDA.Utilities"
     ],
     "includePlatforms": [
         "Editor"
