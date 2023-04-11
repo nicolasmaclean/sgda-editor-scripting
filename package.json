@@ -1,25 +1,18 @@
 {
-  "name": "com.your-company.your-package",
+  "name": "com.sgda.editor-utilites",
   "version": "0.0.1",
-  "displayName": "The user-friendly name displayed",
-  "description": "This is the description shown in the Unity Package Manager.",
+  "displayName": "SGDA Editor Utilites",
+  "description": "This is Nick Maclean's editor utilities package made for a spring 2023 SGDA workshop.",
   "unity": "2020.3",
-  "unityRelease": "29f1",
-  "license": "AGPL-3.0-or-later",
+  "unityRelease": "3f1",
+  "license": "MIT",
   "author": {
-    "name": "Your name",
-    "url": "https://www.dummy.com"
+    "name": "SGDA",
+    "url": "https://utdsgda.club"
   },
   "keywords": [
-
+    
   ],
   "type": "tool",
   "hideInEditor": false,
-  "samples": [
-    {
-      "displayName": "Example scene name",
-      "description": "Description for the example scene that is shown in the Unity package manager.",
-      "path": "Samples~/Example-Scene"
-    }
-  ]
 }
