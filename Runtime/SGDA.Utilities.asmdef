@@ -1,6 +1,6 @@
 {
-    "name": "YourPackage",
-    "rootNamespace": "YourPackage",
+    "name": "SGDA.Utilities",
+    "rootNamespace": "SGDA.Utilities",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
