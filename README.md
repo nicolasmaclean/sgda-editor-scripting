@@ -1,19 +1,20 @@
-# Unity Package Template
+# SGDA Editor Scripting
 
-This template mostly follows the recommended layout from [Unity](https://docs.unity3d.com/Manual/cus-layout.html).
+The dev branch contains a base template for a Unity Package. After updating the package.json and a few other things, this branch can be published to [UPM](https://openupm.com/).
 
-## Divergent
+The final branch contains the final version of the code written for the workshop.
 
-A documentation folder and other meta-data related files were ommitted by my personal preference.
+Look [here](https://github.com/nicolasmaclean/Unity-Package-Template), if you're interested in the standalone Unity Package template.
 
-Internal variables in the runtime assembly are visible to the editor assembly.
+## Installation
 
-# Importing into a project
+1. Create a fork from this repo on your own GitHub account.
+1. Open (or create an empty) Unity 2021.3.3 project.
+1. Clone your fork into the "Assets" folder of your project.
+1. You're ready to go!
 
-If your package has not been published to UPM (Unity Package Manager) a project's manifest may be manually edited to include it.
+# Making The Package Your Own
 
-The manifest may be found at `your-project/Packages/manifest.json`
-
-`"your-package-name": "your-package-github-repo-url"` may be added to dependencies of your project in the manifest.json. `your-package-github-repo-url` should in `.git`.
-
-Unity will automatically download the latest version of the repo into your project as a package separate from your Assets folder.
+1. Update package.json
+1. Update Assemblies (AssemlbyInfo and .asmdef)
+1. Crank some code!
